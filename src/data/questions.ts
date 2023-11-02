@@ -45,72 +45,75 @@ const questions = [
     ],
     correctAnswerId: 3, // ID of the correct value
   },
-  // {
-  //   question: 'Who wrote the play "Romeo and Juliet"?',
-  //   answers: [
-  //     {
-  //       id: 1,
-  //       value: 'Charles Dickens',
-  //     },
-  //     {
-  //       id: 2,
-  //       value: 'William Shakespeare',
-  //     },
-  //     {
-  //       id: 3,
-  //       value: 'Jane Austen',
-  //     },
-  //     {
-  //       id: 4,
-  //       value: 'George Orwell',
-  //     },
-  //   ],
-  //   correctAnswerId: 1, // ID of the correct value
-  // },
-  // {
-  //   question: 'What is the largest mammal on Earth?',
-  //   answers: [
-  //     {
-  //       id: 1,
-  //       value: 'Giraffe',
-  //     },
-  //     {
-  //       id: 2,
-  //       value: 'African Elephant',
-  //     },
-  //     {
-  //       id: 3,
-  //       value: 'Blue Whale',
-  //     },
-  //     {
-  //       id: 4,
-  //       value: 'Hippopotamus',
-  //     },
-  //   ],
-  //   correctAnswerId: 1, // ID of the correct value
-  // },
-  // {
-  //   question: 'Which gas do plants absorb during photosynthesis?',
-  //   answers: [
-  //     {
-  //       id: 1,
-  //       value: 'Carbon Dioxide',
-  //     },
-  //     {
-  //       id: 2,
-  //       value: 'Oxygen',
-  //     },
-  //     {
-  //       id: 3,
-  //       value: 'Nitrogen',
-  //     },
-  //     {
-  //       id: 4,
-  //       value: 'Hydrogen',
-  //     },
-  //   ],
-  //   correctAnswerId: 1, // ID of the correct value
-  // },
+  {
+    id: 3,
+    question: 'Who wrote the play "Romeo and Juliet"?',
+    options: [
+      {
+        id: 1,
+        value: 'Charles Dickens',
+      },
+      {
+        id: 2,
+        value: 'William Shakespeare',
+      },
+      {
+        id: 3,
+        value: 'Jane Austen',
+      },
+      {
+        id: 4,
+        value: 'George Orwell',
+      },
+    ],
+    correctAnswerId: 1, // ID of the correct value
+  },
+  {
+    id: 4,
+    question: 'What is the largest mammal on Earth?',
+    options: [
+      {
+        id: 1,
+        value: 'Giraffe',
+      },
+      {
+        id: 2,
+        value: 'African Elephant',
+      },
+      {
+        id: 3,
+        value: 'Blue Whale',
+      },
+      {
+        id: 4,
+        value: 'Hippopotamus',
+      },
+    ],
+    correctAnswerId: 1, // ID of the correct value
+  },
+  {
+    id: 5,
+    question: 'Which gas do plants absorb during photosynthesis?',
+    options: [
+      {
+        id: 1,
+        value: 'Carbon Dioxide',
+      },
+      {
+        id: 2,
+        value: 'Oxygen',
+      },
+      {
+        id: 3,
+        value: 'Nitrogen',
+      },
+      {
+        id: 4,
+        value: 'Hydrogen',
+      },
+    ],
+    correctAnswerId: 1, // ID of the correct value
+  },
 ];
 
 export default questions;
