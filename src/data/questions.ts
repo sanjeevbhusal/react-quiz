@@ -66,7 +66,7 @@ const questions = [
         value: 'George Orwell',
       },
     ],
-    correctAnswerId: 1, // ID of the correct value
+    correctAnswerId: 2, // ID of the correct value
   },
   {
     id: 4,
@@ -89,7 +89,7 @@ const questions = [
         value: 'Hippopotamus',
       },
     ],
-    correctAnswerId: 1, // ID of the correct value
+    correctAnswerId: 3, // ID of the correct value
   },
   {
     id: 5,
